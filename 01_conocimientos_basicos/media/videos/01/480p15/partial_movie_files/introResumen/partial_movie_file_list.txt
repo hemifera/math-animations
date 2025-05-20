@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/01/480p15/partial_movie_files/introResumen/1185818338_1839128356_250405540.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/01/480p15/partial_movie_files/introResumen/624642324_2343156380_2307017079.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/01/480p15/partial_movie_files/introResumen/624642324_1839128356_59529216.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/01/480p15/partial_movie_files/introResumen/624642324_911460502_1425331980.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/01/480p15/partial_movie_files/introResumen/624642324_1839128356_3896609531.mp4'
