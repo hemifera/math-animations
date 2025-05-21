@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/propiedades_06/1185818338_3891748296_223132457.mp4'
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/propiedades_06/624642324_1839128356_3128487290.mp4'
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/propiedades_06/624642324_2472007633_1422371516.mp4'
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/propiedades_06/624642324_2408024828_1942774316.mp4'
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/propiedades_06/624642324_2408024828_1743870599.mp4'
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/propiedades_06/624642324_1407922386_223132457.mp4'
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/propiedades_06/624642324_1734327179_756504085.mp4'

@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/propiedades_05/1185818338_1975361370_223132457.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/propiedades_05/624642324_1734327179_2388244323.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/propiedades_05/624642324_113643489_223132457.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/propiedades_05/624642324_2408024828_2169036856.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/propiedades_05/624642324_517462203_2873729818.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/propiedades_05/624642324_1839128356_1630940527.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/propiedades_05/624642324_2842963906_158459868.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/propiedades_05/624642324_1839128356_1627857801.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/propiedades_05/624642324_2408024828_167442905.mp4'

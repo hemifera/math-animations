@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/logaritmos_04/1185818338_880708579_223132457.mp4'
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/logaritmos_04/624642324_1839128356_2169224696.mp4'
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/logaritmos_04/624642324_3437575663_162518627.mp4'
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/logaritmos_04/624642324_2408024828_1821487277.mp4'
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/logaritmos_04/624642324_2408024828_3864719428.mp4'

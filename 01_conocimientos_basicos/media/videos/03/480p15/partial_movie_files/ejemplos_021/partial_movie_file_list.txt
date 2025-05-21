@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/ejemplos_021/1185818338_2433563988_223132457.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/ejemplos_021/624642324_2408024828_2924375259.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/ejemplos_021/624642324_731109353_2873729818.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/ejemplos_021/624642324_1839128356_4267642973.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/ejemplos_021/624642324_750408132_158459868.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/ejemplos_021/624642324_1839128356_1813340568.mp4'
+file 'file:D:/01 Proyectos/math-animations/01_conocimientos_basicos/media/videos/03/480p15/partial_movie_files/ejemplos_021/624642324_2408024828_1487471765.mp4'

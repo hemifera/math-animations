@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/equivalencias_01/1185818338_1183632517_223132457.mp4'
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/equivalencias_01/624642324_2408024828_3453047969.mp4'
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/equivalencias_01/624642324_765386089_223132457.mp4'
+file 'file:D:/01 Proyectos/math-animations/media/videos/04/480p15/partial_movie_files/equivalencias_01/624642324_2408024828_4183758731.mp4'
