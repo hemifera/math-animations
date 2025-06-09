@@ -1,8 +1,29 @@
-from manim import MathTex, Scene
+from manim import *
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from helpers import quickFormulas, quickWriteFormulas
+
+class introResumen(Scene):
+    def construct(self):
+        
+        
+        img = ImageMobject('img/udb_logo_high.png')
+        # text = Text("Conocimientos básicos")
+        text = Text("Potenciacion y exponentes")
+        # self.add(img.scale(0.25), text.shift(DOWN*2))
+
+
+class introPropiedades(Scene):
+    def construct(self):
+        
+        
+        # img = ImageMobject('img/udb_logo_high.png')
+        # text = Text("Conocimientos básicos")
+        text = Text("Propiedades de los\nexponentes")
+        self.play(Write(text))
+        self.wait(2)
+
 
 class exponentes_01(Scene):
     def construct(self):
@@ -165,6 +186,28 @@ class propiedades_08(Scene):
             MathTex(r"2"),
         ]
         quickFormulas(self, f3, 2)
+
+
+
+class propiedaded_finales(Scene):
+    def construct(self):
+        props = VGroup(
+            MathTex(r"a^{m}\times a^{n}=a^{m+n}"),
+            MathTex(r"(a^{m})^{n}=a^{m\times n}"),
+            MathTex(r"(ab)^{m}=a^m \times b^{m}"),
+            MathTex(r"a^{-m}=\frac{1}{a^m}"),
+            MathTex(r"\left( \frac{a}{b} \right)^{m}=\frac{a^{m}}{b^{m}}"),
+            MathTex(r"\frac{a^{m}}{a^{n}}=a^{m-n}"),
+            MathTex(r"a^{0}=1 \quad \{a\neq 0\}"),
+            MathTex(r"\sqrt[n]{a^{m}}=a^{\frac{m}{n}}"),
+        ).arrange_in_grid(rows=4, cols=2, buff=(1.0, 0.5))
+
+        self.play(
+            Write(props),
+            Wait(1)
+        )
+        self.wait(2)
+
 
 class ejemplos_01(Scene):
     def construct(self):

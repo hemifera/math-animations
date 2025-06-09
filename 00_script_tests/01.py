@@ -75,3 +75,63 @@ class niceTest(Scene):
         ]
 
         quickFormulas(self, formulas, 1)
+
+
+
+class PolynomialLongDivision(Scene):
+    def construct(self):
+        # Create the polynomials
+        # Create the polynomials
+        dividend = MathTex(r"x^3 + 2x^2 + 3x + 4")
+        divisor = MathTex(r"x + 1")
+        quotient = MathTex(r"x^2 + x + 2 \text{ (quotient)}")
+        remainder = MathTex(r"2 \text{ (remainder)}")
+
+        # Position the polynomials
+        dividend.move_to(UP * 2)
+        divisor.move_to(UP * 0.5)
+        quotient.move_to(DOWN * 1.5)
+        remainder.move_to(DOWN * 2.5)
+
+        # Create a table for the long division
+        table = MathTable(
+            [["Step", "Operation", "Result"],
+             ["1", r"$x^3 \div x$", r"$x^2$"],
+             ["2", r"$x^2 \cdot (x + 1)$", r"$x^3 + x^2$"],
+             ["3", r"$\text{Subtract: } (2x^2 - x^2)$", r"$x^2 + 3x + 4$"],
+             ["4", r"$x^2 \div x$", r"$x$"],
+             ["5", r"$x \cdot (x + 1)$", r"$x^2 + x$"],
+             ["6", r"$\text{Subtract: } (3x - x)$", r"$2x + 4$"],
+             ["7", r"$2x \div x$", r"$2$"],
+             ["8", r"$2 \cdot (x + 1)$", r"$2x + 2$"],
+             ["9", r"$\text{Subtract: } (4 - 2)$", r"$2$"]],
+            col_labels=[Text("Step"), Text("Operation"), Text("Result")],
+            include_outer_lines=True,
+        )
+
+        table.move_to(DOWN * 0.5)
+
+        # Display the dividend and divisor
+        self.play(Write(dividend))
+        self.play(Write(divisor))
+
+        # Show the long division table
+        self.wait(1)
+        self.play(Create(table))
+        self.wait(1)
+
+        # Show the quotient and remainder
+        self.play(Write(quotient))
+        self.wait(1)
+        self.play(Write(remainder))
+        self.wait(2)
+
+        # Final message
+        final_message = Tex("Thus, the result is: $x^2 + x + 2$ with a remainder of $2$")
+        final_message.move_to(DOWN * 3.5)
+        self.play(Write(final_message))
+        self.wait(2)
+
+
+# To run this, save it as a .py file and run it using the Manim command:
+# manim -pql your_script_name.py PolynomialLongDivision

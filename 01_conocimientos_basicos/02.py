@@ -4,6 +4,45 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from helpers import quickFormulas
 
+class introResumen(Scene):
+    def construct(self):
+        
+        
+        img = ImageMobject('img/udb_logo_high.png')
+        # text = Text("Conocimientos básicos")
+        text = Text("Operaciones con fracciones")
+        self.add(img.scale(0.25), text.shift(DOWN*2))
+
+
+
+
+
+class fracciones(Scene):
+    def construct(self):
+
+        t = Text("Fracciones")
+        self.play(Write(t), Wait(3))
+        self.play(t.animate.shift(UP*2).shift(LEFT*3))
+
+        f1 = [
+            MathTex(r"\frac{a}{b}"),
+            MathTex(r"a/b"),
+            MathTex(r"a\div b"),
+        ]
+
+
+        self.add(
+            MathTex(r"a\text{: numerador}").shift(DOWN),
+            MathTex(r"b\text{: denominador}").shift(DOWN*1.8),
+            )
+
+        quickFormulas(self, f1, 3)
+
+
+
+        pass
+
+
 class homogenea_01(Scene):
     def construct(self):
         f1 = [
@@ -183,3 +222,25 @@ class eje_heterogenea_02(Scene):
 
 
 
+class multiplicacion_01(Scene):
+    def construct(self):
+        f1 = [
+            MathTex(r"\frac{a}{b} \cdot \frac{c}{d}"),
+            MathTex(r"\frac{ac}{bd}"),
+        ]
+        quickFormulas(self, f1, 2)
+
+class division_01(Scene):
+    def construct(self):
+        f1 = [
+            MathTex(r"\frac{a}{b} \div \frac{c}{d}"),
+            MathTex(r"\frac{ad} {bc}"),
+        ]
+        quickFormulas(self, f1, 2)
+        self.wait(1)
+
+        f2 = [
+            MathTex(r"\frac{\frac{a}{b} }{\frac{c}{d}}"),
+            MathTex(r"\frac{ad} {bc}"),
+        ]
+        quickFormulas(self, f2, 2)

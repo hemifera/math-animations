@@ -4,12 +4,29 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from helpers import quickFormulas, quickWriteFormulas
 
+class introResumen(Scene):
+    def construct(self):
+        
+        
+        img = ImageMobject('img/udb_logo_high.png')
+        # text = Text("Conocimientos básicos")
+        text = Text("Logaritmos y propiedades")
+        self.add(img.scale(0.25), text.shift(DOWN*2))
+
+
+class notaLogs(Scene):
+    def construct(self):
+        
+        text = MarkupText("Calcular un logaritmo manualmente suele \nser intensivo, y es muy probable que \nuses calculadora", font_size=35)
+        self.add(text)
+        self.wait(2)
+
 
 class logaritmos_01(Scene):
     def construct(self):
 
         f1 = MathTex(r"\log_{\text{base}}{(\text{argumento})}=\text{resultado}").shift(UP)
-        f2 = MathTex(r" \text{argumento}=\text{resultado}^\text{base}")
+        f2 = MathTex(r"\text{base}^\text{resultado} = \text{argumento}")
         self.add(f1)
         self.add(f2)
 
@@ -204,7 +221,7 @@ class propiedades_05(Scene):
 
         self.wait(2)
         self.clear()
-        f7 = [MathTex(r"\log_{a}1=0 \quad\{a>0 \cap a\neq1\}")]
+        f7 = [MathTex(r"\log_{a}1=0 \quad\{a>0}")]
         quickWriteFormulas(self, f7, 3)
 
         # self.wait(2)
@@ -305,6 +322,25 @@ class propiedades_08(Scene):
             MathTex(r"4+\pi"),
         ]
         quickFormulas(self, f3, 2)
+
+class propiedaded_finales(Scene):
+    def construct(self):
+        props = VGroup(
+            MathTex(r"\log_{a}{(mn)}=\log_{a}(m)+\log_{a}(n)", font_size=40),
+            MathTex(r"\log_{a}{\left( \frac{m}{n} \right)}=\log_{a}{m}-\log_{a}{n}", font_size=40),
+            MathTex(r"\log_{a}(x^{n})=n\log_{a}x", font_size=40),
+            MathTex(r"\log_{a}(\sqrt[n]{x^{m}})=\frac{m}{n}\log_{a}{x}", font_size=40),
+            MathTex(r"\log_{a}1=0 \quad\{a>0\}", font_size=40),
+            MathTex(r"\log_{a}a=1", font_size=40),
+            MathTex(r"\log_{a}{m}=\frac{\log_{b}{m}}{\log_{b}{a}}", font_size=40),
+            MathTex(r"a^{\log_{a}{x}}=x", font_size=40),
+        ).arrange_in_grid(rows=4, cols=2, buff=(1.0, 0.5))
+
+        self.play(
+            Write(props),
+            Wait(1)
+        )
+        self.wait(2)
 
 
 class ejemplos_01(Scene):
