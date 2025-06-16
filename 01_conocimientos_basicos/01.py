@@ -8,24 +8,10 @@ from helpers import quickFormulas
 class introResumen(Scene):
     def construct(self):
         img = ImageMobject('img/udb_logo_high.png')
-        # text = Text("Conocimientos básicos")
+
         text = Text("Ley de los signos")
         self.add(img.scale(0.25), text.shift(DOWN*2))
-        # self.add()
-        # self.add(text.shift(DOWN*2))
-        # self.wait(1)
-        # self.play(text.animate.scale(0.8).shift(UP*2.5),  img.animate.scale(0.7).shift(UP*2.3), run_time=1)
-        # self.wait(1)
 
-
-
-        # blist = BulletedList("Ley de los signos", "Operaciones con fracciones", "Propiedades de los exponentes", "Propiedades de los logaritmos")
-        # blist.shift(DOWN*1.7).scale(0.8)
-
-        # self.add(blist.shift(DOWN*1.5))
-        # self.play(Create(blist), run_time=3)
-
-        # self.wait(1)
 
 class leySignos_00(Scene):
     def construct(self):
@@ -122,8 +108,6 @@ class leySignos_011(Scene):
             MathTex(r"25(4)=100"),
             MathTex(r"10\times-3=-30"),
         ]
-
-        # quickFormulas(self, f1, 2)
 
         self.clear()
 

@@ -1,4 +1,4 @@
-from manim import Write, Scene, TransformMatchingShapes, MathTex
+from manim import Write, Scene, TransformMatchingShapes, MathTex, MathTable
 
 
 def quickFormulas(self_parameter, formula_array: list[MathTex], wait_interval: float):
