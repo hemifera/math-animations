@@ -2,7 +2,7 @@ from manim import *
 import sys, os, math
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from helpers import quickFormulas, quickWriteFormulas
+# from helpers import quickFormulas, quickWriteFormulas
 
 class LinePoints:
     def __init__(self, table: MathTable, row_size, col_size):
@@ -23,8 +23,8 @@ class LinePoints:
         
         self.line = Line(top, bottom, color=WHITE)
 
-
-class introResumen(Scene):
+# Imagen de introduccion
+class fc_00(Scene):
     def construct(self):
         img = ImageMobject('img/udb_logo_high.png')
         t1 = Text("Descomposición factorial")
@@ -33,7 +33,7 @@ class introResumen(Scene):
         self.add(img.scale(0.25), v.arrange(DOWN).shift(DOWN*2.5))
 
 
-class ejemploConceptual(Scene):
+class fc_01(Scene):
     def construct(self):
 
         f111 = MathTex(r"2 ({{1}} + {{3}} + {{5}})", substrings_to_isolate="2")
@@ -291,6 +291,29 @@ class ejemplo_tres(Scene):
         self.wait(1)
         self.play(TransformMatchingShapes(f2, f3, key_map={"{{2}}\times {{5}} ": "10"}, path_arc=PI/2) )
         self.wait(1)
+
+class recordatorio_potenciacion(Scene):
+    def construct(self):
+        f1 = MathTex(r"m^{a}\cdot m^{b}=m^{a+b}")
+        self.play(Write(f1))
+        self.wait(3)
+
+        self.clear()
+        f2 = [
+            MathTex(r"m^{5}"),
+            MathTex(r"m^{3}\cdot m^{2}"),
+            MathTex(r"m^{3+2}"),
+            MathTex(r"m^{5}"),
+        ]
+        fx = f2[0]
+        self.play(Write(fx))
+        self.wait(3)
+        for f in f2[0:]:
+            self.play(
+                TransformMatchingShapes(fx, f, path_along_arc=PI/2)
+            )
+            fx = f
+            self.wait(3)        
 
 
 class ejemplo_cuatro(Scene):
