@@ -6,8 +6,8 @@ class tcp_00(Scene):
         img = ImageMobject('img/udb_logo_high.png')
         t1 = Text(r"Trinomios")
         t2 = Text("(trinomio cuadrado perfecto)", font_size=38)
-        t3 = Text("Caso de factoreo 3", font_size=32)
-        v = Group(img, t1, t2, t3)
+        # t3 = Text("Caso de factoreo 3", font_size=32)
+        v = Group(img, t1, t2)
         self.add(img.scale(0.25), v.arrange(DOWN)) 
 
 

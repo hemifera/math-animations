@@ -1,0 +1,16 @@
+{
+  "shiba-theme-settings@@shiba-colors-theme-dark": "Lilac-dark",
+  "shiba-theme-settings@@shiba-accent-colors": "accent-violet",
+  "shiba-theme-settings@@shib-custom-vault-folder-toggle": true,
+  "shiba-theme-settings@@hide-vault-title": false,
+  "shiba-theme-settings@@shiba-remove-file-icons": true,
+  "shiba-theme-settings@@shiba-toggle-folder-icons": true,
+  "shiba-theme-settings@@shiba-toggle-folder-icons-options": "shiba-toggle-folder-icons-arrows",
+  "shiba-theme-settings@@shiba-toggle-indent-colors": false,
+  "shiba-theme-settings@@folder-style-change-options-colorful": "shiba-color-folder-title",
+  "shiba-theme-settings@@folder-style-change-options-colors-palette": "folder-colorful-two",
+  "shiba-theme-settings@@translucent-pane-style-settings": "shib-setting-default-frosted-glass",
+  "shiba-theme-settings@@shib-transparent-setting-panel": false,
+  "shiba-theme-settings@@blockquote-style": "blockquote-style-default",
+  "shiba-theme-settings@@shib-callout-toggle": true
+}

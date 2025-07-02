@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "b4162b29f2643ffb",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee76655fb57279e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03c8f0052769c2a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.3 Trinomio cuadrado perfecto por adición y sustracción.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.2.3 Trinomio cuadrado perfecto por adición y sustracción"
+            }
+          },
+          {
+            "id": "0cc99853e8e0fa4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.4 Trinomio de la forma basica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.2.4 Trinomio de la forma basica"
+            }
+          },
+          {
+            "id": "7c9a0df201f6c6d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.4 Trinomio de la forma basica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.2.4 Trinomio de la forma basica"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "de44ebea31c56577",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f75e74434e0a0d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Planificación.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Planificación"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "40a792924b1dcacc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d95cba7921141e91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c7d1ade25bd272d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0d3d46352c54469d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4581a06e906d1873",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0a895f82298e72cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "7192bc32619758cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d89402ac112bd72e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.5 Trinomio de la forma a.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2.2.5 Trinomio de la forma a"
+            }
+          },
+          {
+            "id": "1455f4cd3b3e93dc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "c75d0d0fb1455c34",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7d11df018918f6ea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "7c9a0df201f6c6d2",
+  "lastOpenFiles": [
+    "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.5 Trinomio de la forma a.md",
+    "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.4 Trinomio de la forma basica.md",
+    "Planificación.md",
+    "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.3 Trinomio cuadrado perfecto por adición y sustracción.md",
+    "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.2 Diferencia de cuadrados perfectos.md",
+    "Excalidraw/Drawing 2025-06-25 11.53.09.excalidraw.md",
+    "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.1 Trinomio cuadrado perfecto.md",
+    "Guión/2 Casos de factoreo/2.1 Descomposición factorial/2.1.1 Factor común.md",
+    "Guión/2 Casos de factoreo/2.1 Descomposición factorial/2.1.2 Factor común por agrupación de términos.md",
+    "Guión/2 Casos de factoreo/2.1 Descomposición factorial/2.1.0 Descomposición factorial.md",
+    "Guión/1 Conocimientos basicos/1.1 PEMDAS.md",
+    "Guión/1 Conocimientos basicos/1.2 Ley de los signos.md",
+    "Guión/2 Casos de factoreo/2.0.md",
+    "Guión/1 Conocimientos basicos/1.4 Propiedades de los exponentes.md",
+    "Excalidraw/Drawing 2025-06-04 10.50.28.excalidraw.md",
+    "Excalidraw",
+    "Guión/1 Conocimientos basicos/1.0 Introduccion.md",
+    "Guión/1 Conocimientos basicos/1.5 Propiedades de los logaritmos.md",
+    "Untitled.md",
+    "Guión/1 Conocimientos basicos/1.3 Operaciones con fracciones.md",
+    "Guión/2 Casos de factoreo/2.3 Binomios de mayore exponentes",
+    "Guión/2 Casos de factoreo/2.2 Trinomios",
+    "Guión/2 Casos de factoreo/2.1 Descomposición factorial",
+    "Guión/2 Casos de factoreo",
+    "Guión/01 Conocimientos basicos/01.L Conocimientos básicos.md",
+    "Guión/01 Conocimientos basicos/02 Fracciones.md",
+    "Guión/1 Conocimientos basicos",
+    "Guión/Untitled.md",
+    "Welcome.md",
+    "Guión"
+  ]
+}
