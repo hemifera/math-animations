@@ -14,8 +14,8 @@
 		- [[2.2.2 Diferencia de cuadrados perfectos|Diferencia de cuadrados perfectos]]
 		- [[2.2.3 Trinomio cuadrado perfecto por adición y sustracción| Trinomio cuadrado perfecto por adición y sustracción]]
 		- [[2.2.4 Trinomio de la forma basica |Trinomio de la forma ]] $x^{2}+bx+c$
-		- [[2.2.5 Trinomio de la forma a| Trinomio de la forma]] $ax^{2}+bx+c$
-		- La fórmula cuadrática
+		- [[2.2.5 Trinomio de la forma avanzada| Trinomio de la forma]] $ax^{2}+bx+c$
+		- [[Formula cuadratica |La fórmula cuadrática]]
 	- Binomios de mayor exponente
 		- Cubo perfecto de binomios
 		- Suma o diferencia de cubos perfectos

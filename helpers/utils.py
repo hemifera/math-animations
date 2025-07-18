@@ -1,4 +1,5 @@
-from manim import Write, Scene, TransformMatchingShapes, MathTex, MathTable
+from manim import Write, Scene, TransformMatchingShapes, MathTex, MathTable, VGroup, Point, Line
+from numpy import array
 
 
 def quickFormulas(self_parameter, formula_array: list[MathTex], wait_interval: float):
@@ -22,3 +23,18 @@ def quickWriteFormulas(self_parameter, formula_array: list[MathTex], wait_interv
         self_parameter.play(Write(formula))
         self_parameter.wait(wait_interval)
         self_parameter.clear()
+
+
+def getline(v: VGroup):
+    v1 = v[0].get_right()
+    v2 = v[1].get_left()
+    vf = v[len(v)-1].get_bottom()
+    
+    
+    x1 = (v1[0]+v2[0])/2
+    y1 = v[0].get_top()[1]
+    y2 = vf[1]
+    p1 = Point(array([x1, y1, 0]))
+    p2 = Point(array([x1, y2, 0]))
+    
+    return Line(p1, p2)
