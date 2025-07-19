@@ -1,5 +1,4 @@
 from manim import *
-import sys, os, math
 import numpy as np
 
 
@@ -98,8 +97,8 @@ class ebc_03(Scene):
             
             MathTex(r"\begin{cases} (-12) + (-20) = -32 \\ (-12) (-20) = 240 \end{cases}"),
             
-            MathTex(r"(x+h)(x+m)"),
-            MathTex(r"(x-12)(x-20)"),
+            MathTex(r"(j+h)(j+m)"),
+            MathTex(r"(j-12)(j-20)"),
             
         ]
 
@@ -217,9 +216,6 @@ class ebc_03(Scene):
             TransformMatchingShapes(f[12], f[13]),
             TransformMatchingShapes(f[11], k, run_time=0.8)
             
-            # f[11].animate.set_opacity(0),
-
-
         )
         self.wait(0.5)
         self.play(
@@ -227,11 +223,125 @@ class ebc_03(Scene):
             k.animate.move_to(ORIGIN)
             )
         
-        
+        self.wait(1)
 
+class ebc_04(Scene):
+    def construct(self):
+        f = [
+            MathTex(r"p^{2}+53p-420"),
+            MathTex(r"\begin{cases}h+m=-32 \\ hm= -420 \end{cases}"),
+            
+            MathTex(r"2^{2} \cdot 5 = 20"),
+            MathTex(r"3\cdot 7 = 21"),
+            MathTex(r"\begin{cases} 20+21 = 31 \\ 20 \cdot 21 = 420 \end{cases}"),
+            
+            
+            MathTex(r"2^{2} \cdot 5 \cdot 3  = 60"),
+            MathTex(r"7"),
+            MathTex(r"\begin{cases}60 + 7=67 \\ 60 \cdot 7 = 420 \end{cases}"),
+            
+            
+            MathTex(r"\begin{cases} 60 + (-7) = 53 \\ (60) (-7) = -420 \end{cases}"),
+            
+            MathTex(r"(p+h)(p+m)"),
+            MathTex(r"(p+60)(p-7)"),
+        ]
+
+        self.play(Write(VGroup(f[0], f[9]).arrange(DOWN).shift(UP*2)))
+        self.wait(2)
+        f[1].move_to(f[0])
+        self.play(f[1].animate.shift(DOWN * 2.5).shift(LEFT * 2))
+
+        f1 = [
+            r"420",
+            r"2",
+            r"210",
+            r"2",
+            r"105",
+            r"3",
+            r"35",
+            r"5",
+            r"7",
+            r"7",
+            r"1"
+        ]
+        v = VGroup()
+        for val in f1:
+            v.add(MathTex(val))
+
+        v.shift(DOWN * 1.5).shift(RIGHT * 2).arrange_in_grid(cols=2, wbuff=2.0)
+
+        self.wait(1)
+        l = getline(v)
+        self.add(l)
+        for i, val in enumerate(f1):
+            self.add(v[i])
+            self.wait(1)
+
+        self.wait(1)
+
+        self.play(f[1].animate.shift(DOWN*2))
+        VGroup(f[2], f[3]).arrange(DOWN).shift(DOWN*0.5).shift(LEFT*2)
+        self.play(
+            TransformMatchingShapes(Group(v[1], v[3] , v[5]).copy(), f[2]),
+            TransformMatchingShapes(Group(v[9], v[7]).copy(), f[3])
+        )
+        self.wait(1)
+        self.play(
+            
+            ReplacementTransform(
+                Group(f[2], f[3]).copy(), f[4].move_to(f[1])
+            ),
+            TransformMatchingShapes(f[1], f[4])
+        )
+        
+        self.wait(2)
+        
+        self.remove(f[2], f[3], f[4])
+        self.add(f[1])
+        self.wait(1)
+        
+        ## eee
+        VGroup(f[5], f[6]).arrange(DOWN).shift(DOWN*0.5).shift(LEFT*2)
+        self.play(
+            TransformMatchingShapes(Group(v[1], v[3], v[5], v[7]).copy(), f[5]),
+            TransformMatchingShapes(v[9].copy(), f[6])
+        )
+        self.wait(1)
+        
+        self.play(
+            
+            ReplacementTransform(
+                Group(f[5], f[6]).copy(), f[7].move_to(f[1])
+            ),
+            TransformMatchingShapes(f[1], f[7])
+        )
+        self.wait(2)
+        
+        self.remove(f[5], f[6])
+        self.play(f[7].animate.shift(UP))
+        self.play(ReplacementTransform(f[7], f[8].move_to(f[7])))
         
         self.wait(1)
 
+        self.remove(v, l)
+        self.add(v.set_opacity(0))
+        self.play(f[8].animate.move_to(ORIGIN).shift(DOWN))
+        self.wait(1)
+
+        f[10].move_to(f[9])
+        k = VGroup(f[0], f[10])
+        self.play(
+            TransformMatchingShapes(f[9], f[10]),
+            f[8].animate.move_to(k).set_opacity(0),
+
+        )
+        self.wait(0.5)
+        self.play(
+            k.animate.move_to(ORIGIN)
+            )
+        
+        self.wait(1)
 
 def getline(v: VGroup):
     v1 = v[0].get_right()

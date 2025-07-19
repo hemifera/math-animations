@@ -1,6 +1,4 @@
 from manim import *
-import sys, os, math
-
 
 class tcp_00(Scene):
     def construct(self):
