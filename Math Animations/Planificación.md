@@ -16,10 +16,10 @@
 		- [[2.2.5 Trinomio de la forma avanzada| Trinomio de la forma]] $ax^{2}+bx+c$
 		- [[Formula cuadratica |La fórmula cuadrática]]
 	- Binomios de mayor exponente
-		- Cubo perfecto de binomios
-		- Suma o diferencia de cubos perfectos
-		- Triángulo de pascal
-		- División sintética (Método de Ruffini)
+		- [[2.3.1 Cubo perfecto de binomios]]
+		- [[2.3.3 Suma o diferencia de cubos perfectos]]
+		- [[2.3.4 Triángulo de pascal]]
+		- [[2.3.2 División sintética (Método de Ruffini)]]
 - Ejercicios combinados
 	- Estrategias y ejemplos de descomposición factorial
 	- Aplicación de la división sintética y un par de estrategias
