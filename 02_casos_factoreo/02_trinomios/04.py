@@ -84,7 +84,112 @@ class fcc_02(Scene):
         
         self.wait(1)
         
+
 class fcc_03(Scene):
+    def construct(self):  
+        f = [
+            MathTex(r"375m^{2} -220m -91"),
+            MathTex(r"\begin{cases} a = 375 \\ b = -220 \\ c = -91 \end{cases}"),
+            MathTex(r"m=\frac{-b\pm \sqrt{ b^{2}-4ac }}{2a}"),
+            MathTex(r"m=\frac{-(-220)\pm \sqrt{ (-220)^{2}-4(375)(-91) }}{2(375)}"),
+            
+            MathTex(r"m=\frac{220\pm \sqrt{ 48400+136500 }}{750}"),
+            MathTex(r"m=\frac{220\pm \sqrt{ 184900 }}{750}"),
+            MathTex(r"m=\frac{220\pm 430 }{750}"),
+            MathTex(r"m=\begin{cases}\frac{220+430}{750} \\ \frac{220-430}{750} \end{cases}"),
+            
+            MathTex(r"m=\begin{cases}\frac{650}{750} \\ -\frac{210}{750} \end{cases}"),
+            MathTex(r"m=\begin{cases}\frac{13}{15} \\ -\frac{7}{25} \end{cases}"),
+            
+            MathTex(r"\left(m-\frac{13}{15}\right)\left(m+\frac{7}{25}\right)=0"),
+            MathTex(r"(15)\left(m-\frac{13}{15}\right)(25)\left(m+\frac{7}{25}\right)=(15)(25)0"),
+            MathTex(r"(15m-13)(25m+7)=0"),
+        ]
+        
+        
+        self.play(Write(f[0]))
+        self.wait(1)
+        self.play(f[0].animate.shift(UP*2))
+        self.play(
+            TransformMatchingShapes(f[0].copy(), f[1].shift(LEFT*4))
+        )        
+        self.wait(1)
+        self.play(Write(f[2].next_to(f[1], RIGHT*4)))
+        self.wait(1)
+        self.play(
+            TransformMatchingShapes(f[2], f[3].move_to(f[2]), run_time=0.5),
+            TransformMatchingShapes(f[1].copy(), f[3]),
+            # f[2].animate.next_to(f[3], RIGHT*4)
+        )
+        self.remove(f[1])
+        self.play(f[3].animate.move_to(ORIGIN))
+        self.wait(1)
+        for i in range(3, 12):
+            self.play(
+                TransformMatchingShapes( f[i], f[i+1].move_to(f[i]) ), )
+            self.wait(1)
+        
+
+        # codigo para el mcm
+        # v = VGroup()
+        # for val in f1:
+        #     v.add(MathTex(val))
+
+        # v.shift(DOWN * 1.5).shift(RIGHT * 2).arrange_in_grid(cols=2, wbuff=2.0)
+        
+        # self.wait(1)
+        # l = getline(v)
+        # self.add(l)
+        # for i, val in enumerate(f1):
+        #     self.add(v[i])
+        #     self.wait(1)
+
+        # self.wait(1)
+        
+        
+        
+class fcc_04(Scene):
+    def construct(self):  
+        f = [
+            MathTex(r"36u^{2}+204u+289"),
+            MathTex(r"\begin{cases} a = 36 \\ b = 204 \\ c = 289 \end{cases}"),
+            MathTex(r"u=\frac{-b\pm \sqrt{ b^{2}-4ac }}{2a}"),
+            MathTex(r"u=\frac{-(204)\pm \sqrt{ (204)^{2}-4(36)(289) }}{2(36)}"),
+            MathTex(r"u=\frac{-204\pm \sqrt{ 41616-41616 }}{72}"),
+            MathTex(r"u=\frac{-204\pm \sqrt{ 0 }}{72}"),
+            MathTex(r"u=\frac{-204}{72}"),
+            MathTex(r"u=-\frac{17}{6}"),
+            MathTex(r"\left(u+\frac{17}{6}\right)=0"),
+            MathTex(r"(6)\left(u+\frac{17}{6}\right)=(6)0"),
+            MathTex(r"(6u+17)=0"),
+            MathTex(r"(6u+17)^{2}"),
+
+        ]
+        
+        self.play(Write(f[0]))
+        self.wait(1)
+        self.play(f[0].animate.shift(UP*2))
+        self.play(
+            TransformMatchingShapes(f[0].copy(), f[1].shift(LEFT*4))
+        )        
+        self.wait(1)
+        self.play(Write(f[2].next_to(f[1], RIGHT*4)))
+        self.wait(1)
+        self.play(
+            TransformMatchingShapes(f[2], f[3].move_to(f[2]), run_time=0.5),
+            TransformMatchingShapes(f[1].copy(), f[3]),
+            # f[2].animate.next_to(f[3], RIGHT*4)
+        )
+        self.remove(f[1])
+        self.play(f[3].animate.move_to(ORIGIN))
+        self.wait(1)
+        for i in range(3, 11):
+            self.play(
+                TransformMatchingShapes( f[i], f[i+1].move_to(f[i]) ), )
+            self.wait(1)
+    
+    
+class fcc_05(Scene):
     def construct(self):
         f = [
             MathTex(r"x=\frac{-b\pm \sqrt{ b^{2}-4ac }}{2a}"),
@@ -132,7 +237,7 @@ class fcc_03(Scene):
         )
         self.wait(1)
         
-class fcc_04(Scene):
+class fcc_06(Scene):
     def construct(self):
         f = [
             

@@ -1,5 +1,4 @@
 1. Conocimientos básicos
-	- [[1.1 PEMDAS|PEMDAS: El orden de las operaciones]]
 	- [[1.2 Ley de los signos|Ley de los signos]]
 	- [[1.3 Operaciones con fracciones|Fracciones]]
 	- [[1.4 Propiedades de los exponentes|Propiedades de los exponentes]]

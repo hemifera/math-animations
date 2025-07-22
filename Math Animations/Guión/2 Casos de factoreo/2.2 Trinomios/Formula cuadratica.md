@@ -78,3 +78,44 @@ $$
 $$
 (3x +2 - i)(3x +2 + i) = 0
 $$
+
+
+
+$$
+375x^{2} -220x -91
+$$
+
+
+$$
+\begin{cases}
+a = 375 \\
+b = -220 \\
+c=91 \\
+
+\end{cases}
+$$
+
+$$
+x=-(-220)
+$$
+
+
+$$
+\begin{cases}
+\frac{220+430}{750} \\
+\frac{220-430}{750}
+\end{cases}
+$$
+
+$$
+
+(25)(15)m=(25)(15)(\begin{cases}\frac{13}{15} \\ \frac{7}{25} \end{cases})
+$$
+
+$$
+\left(m-\frac{13}{15}\right)\left(m+\frac{7}{25}\right)=0
+$$
+
+$$
+(15)\left(m-\frac{13}{15}\rigth)(25)\left(m+\frac{7}{25}\right)=(15)(25)0
+$$
