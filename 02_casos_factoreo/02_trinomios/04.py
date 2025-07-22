@@ -136,7 +136,7 @@ class fcc_04(Scene):
     def construct(self):
         f = [
             
-            MathTex(r"9x{2}+12x+5"),
+            MathTex(r"9x^{2}+12x+5"),
             MathTex(r"x=\frac{-b\pm \sqrt{ b^{2}-4ac }}{2a}"),
             MathTex(r"\begin{cases} a = 9 \\ b = 12 \\ c = 5 \end{cases}"),
             MathTex(r"x=\frac{-(12)\pm \sqrt{ (12)^{2}-4(9)(5) }}{2(9)}"),
@@ -159,8 +159,29 @@ class fcc_04(Scene):
         )
         
         self.play(
-            f[0].animate.shift(UP),
-            TransformMatchingShapes(f[0].copy(), f[1].shift(RIGHT*2)),
-            TransformMatchingShapes(f[0].copy(), f[2].shift(LEFT*2)),
+            f[0].animate.shift(UP*2),
+            
+            TransformMatchingShapes(f[0].copy(), f[2].shift(LEFT*3)),
+        )
+        self.wait(1)
+        self.play(Write(f[1].shift(RIGHT*2)))
+        self.wait(1)
+
+        self.play(
+            TransformMatchingShapes(Group(f[2], f[1]), f[3].shift(RIGHT*2))                  
+        )
+        # self.wait(1)
+        self.play(f[3].animate.move_to(ORIGIN))
+        # self.remove(f[2])
+        for i in range (3, 13):
+            self.play(TransformMatchingShapes(f[i], f[i+1].move_to(f[i]))   )
+            self.wait(1)
+
+        self.play(TransformMatchingShapes(f[13].copy(), f[14].next_to(f[13], UP)))
+        
+        self.wait(1)
+        self.play(
+            f[13].animate.set_opacity(0),
+            VGroup(f[0], f[14]).animate.arrange(DOWN)
         )
         self.wait(1)
