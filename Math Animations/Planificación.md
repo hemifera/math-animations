@@ -17,50 +17,40 @@
 		- [[Formula cuadratica |La fórmula cuadrática]]
 	- Binomios de mayor exponente
 		- [[2.3.1 Cubo perfecto de binomios]]
-		- [[2.3.3 Suma o diferencia de cubos perfectos]]
-		- [[2.3.4 Triángulo de pascal]]
-		- [[2.3.2 División sintética (Método de Ruffini)]]
+		- [[2.3.2 Suma o diferencia de cubos perfectos]]
+		- [[2.3.3 Triángulo de pascal]]
+		- [[2.3.4 División sintética (Método de Ruffini)]]
 - Ejercicios combinados
 	- Estrategias y ejemplos de descomposición factorial
 	- Aplicación de la división sintética y un par de estrategias
 
-3. Ecuaciones lineales e inecuaciones
+3. Métodos de simplificación
+	- Cocientes
+		- Racionalización
+		- División larga
+		- División sintética
+		- Fracciones parciales
+4. Ecuaciones lineales e inecuaciones
 	- Métodos comunes
 		- Eliminación por igualación
 		- Eliminación por sustitución
 		- Método de reducción
-	- Matrices
-		- La determinante (333)
-		- Método Cramer
-		- Método de cofactores
 	- El valor absoluto
 		- Definición
 		- Desigualdades
 
-4. Trigonometría
+5. Trigonometría
 	- Las funciones básicas
 		- seno, coseno y tangente
 		- trigonométricas básicas inversas
 		- El circulo unitario y el triangulo rectángulo
 		<div class="page-break" style="page-break-before: always;"></div>
 
-5. Métodos de simplificación
-	- Cocientes
-		- Racionalización
-		- División larga
-		- División sintética
-		- Fracciones parciales
 	- Trigonometría
 		- Reducción lineal de seno y coseno
 	- Exponentes, radicales y log
 		- Ecuaciones logarítmicas
 	
-6. Exponentes, radicales y logaritmos
-	- Propiedades básicas
-		- Propiedades de los exponentes
-		- Propiedades de los radicales
-		- Propiedades de los logaritmos
-7. Misceláneos
+6. Misceláneos
 	- La notación científica y prefijos del SI
 
-$\neq$
