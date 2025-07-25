@@ -20,22 +20,17 @@
 		- [[2.3.2 Suma o diferencia de cubos perfectos]]
 		- [[2.3.3 Triángulo de pascal]]
 		- [[2.3.4 División sintética (Método de Ruffini)]]
-- Ejercicios combinados
-	- Estrategias y ejemplos de descomposición factorial
-	- Aplicación de la división sintética y un par de estrategias
 
 3. Métodos de simplificación
-	- Cocientes
-		- Racionalización
-		- División larga
-		- División sintética
-		- Fracciones parciales
-4. Ecuaciones lineales e inecuaciones
+	- [[5.1 Racionalización|Racionalización]]
+	- [[5.2 División larga|División larga]]
+	- [[5.3 Fracciones parciales|Fracciones parciales]]
+4. Ecuaciones lineales
 	- Métodos comunes
-		- Eliminación por igualación
-		- Eliminación por sustitución
-		- Método de reducción
-	- El valor absoluto
+		- [[3.1.1 Eliminación por igualación|Eliminación por igualación]]
+		- [[3.1.2 Eliminación por sustitución |Eliminación por sustitución]]
+		- [[3.1.3 Método de reducción|Método de reducción]]
+	- El valor absoluto|
 		- Definición
 		- Desigualdades
 

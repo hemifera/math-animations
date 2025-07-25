@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "97cdf2f86f18d37a",
+        "id": "108a96f9a4075369",
         "type": "tabs",
         "children": [
           {
@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.3 Triángulo de pascal.md",
+                "file": "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.1 Eliminación por igualación.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.3.3 Triángulo de pascal"
+              "title": "3.1.1 Eliminación por igualación"
             }
           }
         ]
@@ -170,41 +170,43 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "03c8f0052769c2a2",
+  "active": "9c7d1ade25bd272d",
   "lastOpenFiles": [
+    "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.1 Eliminación por igualación.md",
     "Planificación.md",
+    "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.3 Método de reducción.md",
+    "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.2 Eliminación por sustitución.md",
+    "Guión/4 Trigonometría/4.2 Las funciones inversas y los angulos.md",
+    "Guión/4 Trigonometría/4.1 Las funciones básicas y el circulo unitario.md",
+    "Guión/5 Métodos de simplifación/5.5 La notación científica.md",
+    "Avance.md",
+    "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.1 Trinomio cuadrado perfecto.md",
+    "Guión/2 Casos de factoreo/2.2 Trinomios/2.0.md",
+    "Guión/5 Métodos de simplifación/5.4 Reducción lineal del seno y coseno.md",
+    "Guión/3 Ecuaciones lineales/3.3 Ecuaciones logarítmicas",
+    "Guión/5 Métodos de simplifación/Untitled",
+    "Guión/4 Trigonometría/4.1 Las funciones básicas",
+    "Guión/3 Ecuaciones lineales/3.2 El valor absoluto",
+    "Guión/3 Ecuaciones lineales/3.1 Métodos comunes",
+    "Guión/Untitled",
+    "Guión/4 Trigonometría",
+    "Guión/3 Ecuaciones lineales",
+    "Guión/5 Métodos de simplifación/5.3 Fracciones parciales.md",
+    "Guión/5 Métodos de simplifación/5.2 División larga.md",
+    "Guión/5 Métodos de simplifación/5.1 Racionalización.md",
+    "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.4 División sintética (Método de Ruffini).md",
+    "Guión/5 Métodos de simplifación",
+    "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.3 Triángulo de pascal.md",
     "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.2 Suma o diferencia de cubos perfectos.md",
     "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.1 Cubo perfecto de binomios.md",
-    "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.4 División sintética (Método de Ruffini).md",
-    "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.3 Triángulo de pascal.md",
     "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente",
-    "Untitled.md",
-    "Guión/2 Casos de factoreo/2.2 Trinomios/2.0.md",
     "Guión/2 Casos de factoreo/2.2 Trinomios/Formula cuadratica.md",
     "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.4 Trinomio de la forma basica.md",
     "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.5 Trinomio de la forma avanzada.md",
     "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.3 Trinomio cuadrado perfecto por adición y sustracción.md",
     "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.2 Diferencia de cuadrados perfectos.md",
     "Excalidraw/Drawing 2025-06-25 11.53.09.excalidraw.md",
-    "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.1 Trinomio cuadrado perfecto.md",
     "Guión/2 Casos de factoreo/2.1 Descomposición factorial/2.1.1 Factor común.md",
-    "Guión/2 Casos de factoreo/2.1 Descomposición factorial/2.1.2 Factor común por agrupación de términos.md",
-    "Guión/2 Casos de factoreo/2.1 Descomposición factorial/2.1.0 Descomposición factorial.md",
-    "Guión/1 Conocimientos basicos/1.1 PEMDAS.md",
-    "Guión/1 Conocimientos basicos/1.2 Ley de los signos.md",
-    "Guión/1 Conocimientos basicos/1.4 Propiedades de los exponentes.md",
-    "Excalidraw/Drawing 2025-06-04 10.50.28.excalidraw.md",
-    "Excalidraw",
-    "Guión/1 Conocimientos basicos/1.0 Introduccion.md",
-    "Guión/1 Conocimientos basicos/1.5 Propiedades de los logaritmos.md",
-    "Guión/1 Conocimientos basicos/1.3 Operaciones con fracciones.md",
-    "Guión/2 Casos de factoreo/2.3 Binomios de mayore exponentes",
-    "Guión/2 Casos de factoreo/2.2 Trinomios",
-    "Guión/2 Casos de factoreo/2.1 Descomposición factorial",
-    "Guión/2 Casos de factoreo",
-    "Guión/01 Conocimientos basicos/01.L Conocimientos básicos.md",
-    "Guión/01 Conocimientos basicos/02 Fracciones.md",
-    "Guión/1 Conocimientos basicos",
-    "Guión"
+    "Guión/2 Casos de factoreo/2.1 Descomposición factorial/2.1.2 Factor común por agrupación de términos.md"
   ]
 }
