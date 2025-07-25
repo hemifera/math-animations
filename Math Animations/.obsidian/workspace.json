@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.1 Eliminación por igualación.md",
+                "file": "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.3 Triángulo de pascal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.1.1 Eliminación por igualación"
+              "title": "2.3.3 Triángulo de pascal"
             }
           }
         ]
@@ -170,8 +170,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9c7d1ade25bd272d",
+  "active": "03c8f0052769c2a2",
   "lastOpenFiles": [
+    "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.1 Cubo perfecto de binomios.md",
+    "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.2 Suma o diferencia de cubos perfectos.md",
+    "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.3 Triángulo de pascal.md",
     "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.1 Eliminación por igualación.md",
     "Planificación.md",
     "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.3 Método de reducción.md",
@@ -196,9 +199,6 @@
     "Guión/5 Métodos de simplifación/5.1 Racionalización.md",
     "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.4 División sintética (Método de Ruffini).md",
     "Guión/5 Métodos de simplifación",
-    "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.3 Triángulo de pascal.md",
-    "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.2 Suma o diferencia de cubos perfectos.md",
-    "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.1 Cubo perfecto de binomios.md",
     "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente",
     "Guión/2 Casos de factoreo/2.2 Trinomios/Formula cuadratica.md",
     "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.4 Trinomio de la forma basica.md",
