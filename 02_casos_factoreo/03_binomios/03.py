@@ -2,7 +2,7 @@ from manim import *
 
 class tdpp_00(Scene):
     def construct(self):
-        img = ImageMobject("img/udb_logo_high.png")
+        img = ImageMobject("../../img/udb_logo_high.png")
         t1 = Text(r"Polinomios de mayor orden")
         t2 = Text(r"Triángulo de pascal", font_size=32) 
 
@@ -12,9 +12,9 @@ class tdpp_00(Scene):
 class tdpp_010(Scene):
     def construct(self):
         g = [
-                MathTex(r"(a\pm b)^{n}"),
+                MathTex(r"(\pm a\pm b)^{n}"),
                 MathTex(r"(a\pm b)^{2} = a^{2} \pm 2ab+b^{2}"),
-                MathTex(r"(a\pm b)^{2} = \begin{cases} a^{3}+3a^{2}b+3ab^{2}+b^{3} \\ a^{3}-3a^{2}b+3ab^{2}-b^{3} \end{cases}"),
+                MathTex(r"(a\pm b)^{3} = \begin{cases} a^{3}+3a^{2}b+3ab^{2}+b^{3} \\ a^{3}-3a^{2}b+3ab^{2}-b^{3} \end{cases}"),
             ]
         
         
@@ -228,7 +228,7 @@ class tdpp_012(Scene):
             MathTex(r"1a^{2} \quad 2ab \quad 1b^2"),
 
             MathTex(r"(a \pm b)^{3}="),
-            MathTex(r"1a^{3} \quad 3a^2b \quad 3ab^2 \quad 1b^2"),
+            MathTex(r"1a^{3} \quad 3a^2b \quad 3ab^2 \quad 1b^3"),
 
         ]
         self.play(FadeIn(keke))
@@ -454,9 +454,9 @@ class tdpp_014(Scene):
 class tdpp_015(Scene):
     def construct(self):
         p = Paragraph(
-            "3.3 Si entre a y b, ambos son negativos, ",
-            "si n es par, todos los terminos son positivos. ",
-            "si n es impar, todos los terminos son negativos",
+            "3.3.  Cuando a y b sea negativo",
+            "       si n es par, todos los terminos son positivos. ",
+            "       si n es impar, todos los terminos son negativos.",
         )
 
         f = [

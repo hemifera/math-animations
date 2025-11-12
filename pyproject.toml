@@ -1,7 +1,7 @@
 [project]
 name = "math-animations"
 version = "0.1.0"
-description = "Add your description here"
+description = "Archivos de las animaciones de matemáticas para la UDB"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
