@@ -15,4 +15,5 @@ media/
 video edits/
 
 # Obsidian vault
-themes/
+.obsidian/
+
