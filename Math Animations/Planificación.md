@@ -20,32 +20,31 @@
 		- [[2.3.2 Suma o diferencia de cubos perfectos]]
 		- [[2.3.3 Triángulo de pascal]]
 		- [[2.3.4 División sintética (Método de Ruffini)]]
-
-3. Métodos de simplificación
-	- [[5.1 Racionalización|Racionalización]]
-	- [[5.2 División larga|División larga]]
-	- [[5.3 Fracciones parciales|Fracciones parciales]]
-4. Ecuaciones lineales
+3. Ecuaciones lineales
 	- Métodos comunes
-		- [[3.1.1 Eliminación por igualación|Eliminación por igualación]]
-		- [[3.1.2 Eliminación por sustitución |Eliminación por sustitución]]
+		- [[3.1.2 Eliminación por sustitución|Eliminación por igualación]]
+		- [[3.1.1 Eliminación por igualacion|Eliminación por sustitución]]
 		- [[3.1.3 Método de reducción|Método de reducción]]
-	- El valor absoluto|
-		- Definición
-		- Desigualdades
-
-5. Trigonometría
+	- El valor absoluto
+		- [[1. La funcion y unas bases|Fundamentos]]
+		- [[2. Ecuaciones con intervalos|Ecuaciones con desigualdades e intervalos]]
+	- Ecuaciones logarítmicas
+		- [[1. Ejercicios prácticos en ecuaciones logarítmicas|Ejercicios prácticos en ecuaciones logarítmicas]]
+4. Trigonometría
 	- Las funciones básicas
+		- El circulo unitario y el triangulo rectángulo
 		- seno, coseno y tangente
 		- trigonométricas básicas inversas
-		- El circulo unitario y el triangulo rectángulo
 		<div class="page-break" style="page-break-before: always;"></div>
 
 	- Trigonometría
 		- Reducción lineal de seno y coseno
-	- Exponentes, radicales y log
-		- Ecuaciones logarítmicas
-	
+
+5. Métodos de simplificación
+	- [[5.1 Racionalización|Racionalización]]
+	- [[5.2 División larga|División larga]]
+	- [[5.3 Fracciones parciales|Fracciones parciales]]
+
 6. Misceláneos
 	- La notación científica y prefijos del SI
 
