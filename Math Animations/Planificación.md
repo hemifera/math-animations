@@ -42,8 +42,8 @@
 
 5. Métodos de simplificación
 	- [[5.1 Racionalización|Racionalización]]
-	- [[5.2 División larga|División larga]]
-	- [[5.3 Fracciones parciales|Fracciones parciales]]
+	- [[5.1 División larga|División larga]]
+	- [[5.2 Fracciones parciales|Fracciones parciales]]
 
 6. Misceláneos
 	- La notación científica y prefijos del SI

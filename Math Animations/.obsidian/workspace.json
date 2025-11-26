@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "f7568db50a4603a3",
+            "id": "1d4e74201e1b4ff4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guión/5 Métodos de simplifación/5.1 Racionalización.md",
+                "file": "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.3 Método de reducción.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.1 Racionalización"
+              "title": "3.1.3 Método de reducción"
             }
           }
         ],
@@ -188,10 +188,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f7568db50a4603a3",
+  "active": "1d4e74201e1b4ff4",
   "lastOpenFiles": [
-    "Guión/5 Métodos de simplifación/5.4 Reducción lineal del seno y coseno.md",
-    "Guión/5 Métodos de simplifación/5.5 La notación científica.md",
+    "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.2 Eliminación por sustitución.md",
+    "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.3 Método de reducción.md",
+    "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.1 Eliminación por igualacion.md",
+    "Guión/5 Métodos de simplifación/5.1 División larga.md",
+    "Guión/5 Métodos de simplifación/5.4 La notación científica.md",
+    "Guión/5 Métodos de simplifación/5.3 Reducción lineal del seno y coseno.md",
+    "Guión/5 Métodos de simplifación/5.2 Fracciones parciales.md",
     "Guión/5 Métodos de simplifación/5.1 Racionalización.md",
     "Guión/4 Trigonometría/4.1 Las funciones trigonometricas y el circulo unitario.md",
     "Guión/4 Trigonometría/4.2 Las funciones inversas y los angulos.md",
@@ -200,15 +205,11 @@
     "Guión/1 Conocimientos basicos/1.5 Propiedades de los logaritmos.md",
     "Guión/3 Ecuaciones lineales/3.2 El valor absoluto/2. Ecuaciones con intervalos.md",
     "Guión/3 Ecuaciones lineales/3.2 El valor absoluto/1. La funcion y unas bases.md",
-    "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.3 Método de reducción.md",
     "Guión/3 Ecuaciones lineales/3.2 El valor absoluto",
-    "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.1 Eliminación por igualacion.md",
-    "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.2 Eliminación por sustitución.md",
     "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.4 División sintética (Método de Ruffini).md",
     "Untitled.md",
     "niko_wall5.jpg",
     "Avance.md",
-    "Guión/5 Métodos de simplifación/5.2 División larga.md",
     "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.3 Triángulo de pascal.md",
     "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.1 Cubo perfecto de binomios.md",
     "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.2 Suma o diferencia de cubos perfectos.md",
@@ -222,7 +223,6 @@
     "Guión/Untitled",
     "Guión/4 Trigonometría",
     "Guión/3 Ecuaciones lineales",
-    "Guión/5 Métodos de simplifación/5.3 Fracciones parciales.md",
     "Guión/5 Métodos de simplifación",
     "Guión/2 Casos de factoreo/2.2 Trinomios/Formula cuadratica.md",
     "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.4 Trinomio de la forma basica.md",
