@@ -31,20 +31,14 @@
 	- Ecuaciones logarítmicas
 		- [[1. Ejercicios prácticos en ecuaciones logarítmicas|Ejercicios prácticos en ecuaciones logarítmicas]]
 4. Trigonometría
-	- Las funciones básicas
-		- El circulo unitario y el triangulo rectángulo
-		- seno, coseno y tangente
-		- trigonométricas básicas inversas
+	- [[4.1 Las funciones trigonometricas y el circulo unitario|El circulo unitario y el triangulo rectángulo]]
+	- [[4.2 Las funciones inversas y los angulos|Funciones trigonométricas básicas inversas]]
 		<div class="page-break" style="page-break-before: always;"></div>
 
-	- Trigonometría
-		- Reducción lineal de seno y coseno
 
 5. Métodos de simplificación
-	- [[5.1 Racionalización|Racionalización]]
 	- [[5.1 División larga|División larga]]
 	- [[5.2 Fracciones parciales|Fracciones parciales]]
+	- [[5.3 Reducción lineal del seno y coseno|Reduccion lineal del seno y coseno]]
 
-6. Misceláneos
-	- La notación científica y prefijos del SI
 

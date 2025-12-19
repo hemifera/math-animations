@@ -21,7 +21,6 @@ from manim import (
     VGroup,
     Write,
 )
-from manim.animation.transform_matching_parts import TransformMatchingAbstractBase
 
 # cambios de codigo
 # renderizar desde la direccion actual del archivo
