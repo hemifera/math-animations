@@ -1,8 +1,9 @@
 from manim import *
 
+
 class ddp_00(Scene):
     def construct(self):
-        img = ImageMobject("img/udb_logo_high.png")
+        img = ImageMobject("../../img/udb_logo_high.png")
         t1 = Text(r"Trinomios")
         t2 = Text("(diferencia de cuadrados perfectos)", font_size=38)
         t3 = Text("Caso de factoreo 4", font_size=32)

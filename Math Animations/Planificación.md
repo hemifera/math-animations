@@ -1,8 +1,8 @@
 1. Conocimientos básicos
-	- [[1.2 Ley de los signos|Ley de los signos]]
-	- [[1.3 Operaciones con fracciones|Fracciones]]
-	- [[1.4 Propiedades de los exponentes|Propiedades de los exponentes]]
-	- [[1.5 Propiedades de los logaritmos|Propiedades de los logaritmos]]
+	- [[1.1 Ley de los signos|Ley de los signos]]
+	- [[1.2 Operaciones con fracciones|Fracciones]]
+	- [[1.3 Propiedades de los exponentes|Propiedades de los exponentes]]
+	- [[1.4 Propiedades de los logaritmos|Propiedades de los logaritmos]]
 
 2. Casos de factoreo
 	- [[2.1.0 Descomposición factorial|Descomposición factorial]]
@@ -13,8 +13,7 @@
 		- [[2.2.2 Diferencia de cuadrados perfectos|Diferencia de cuadrados perfectos]]
 		- [[2.2.3 Trinomio cuadrado perfecto por adición y sustracción| Trinomio cuadrado perfecto por adición y sustracción]]
 		- [[2.2.4 Trinomio de la forma basica |Trinomio de la forma ]] $x^{2}+bx+c$
-		- [[2.2.5 Trinomio de la forma avanzada| Trinomio de la forma]] $ax^{2}+bx+c$
-		- [[Formula cuadratica |La fórmula cuadrática]]
+		- [[2.2.5 Formula cuadratica|La fórmula cuadrática]]
 	- Binomios de mayor exponente
 		- [[2.3.1 Cubo perfecto de binomios]]
 		- [[2.3.2 Suma o diferencia de cubos perfectos]]
@@ -32,13 +31,10 @@
 		- [[1. Ejercicios prácticos en ecuaciones logarítmicas|Ejercicios prácticos en ecuaciones logarítmicas]]
 4. Trigonometría
 	- [[4.1 Las funciones trigonometricas y el circulo unitario|El circulo unitario y el triangulo rectángulo]]
-	- [[4.2 Las funciones inversas y los angulos|Funciones trigonométricas básicas inversas]]
 		<div class="page-break" style="page-break-before: always;"></div>
-
-
 5. Métodos de simplificación
 	- [[5.1 División larga|División larga]]
 	- [[5.2 Fracciones parciales|Fracciones parciales]]
-	- [[5.3 Reducción lineal del seno y coseno|Reduccion lineal del seno y coseno]]
+	- [[5.3 Reducción lineal del seno y coseno|Reducción lineal del seno y coseno]]
 
 

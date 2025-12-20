@@ -1,1 +1,0 @@
-![[niko_wall5.jpg]]

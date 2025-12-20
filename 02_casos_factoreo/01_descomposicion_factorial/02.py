@@ -1,5 +1,9 @@
+import math
+import os
+import sys
+
 from manim import *
-import sys, os, math
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 # from helpers import quickFormulas, quickWriteFormulas
@@ -8,12 +12,12 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 # Imagen de introduccion
 class fcat_00(Scene):
     def construct(self):
-        img = ImageMobject('img/udb_logo_high.png')
+        img = ImageMobject("../../img/udb_logo_high.png")
         t1 = Text(r"Descomposición factorial")
         t2 = Text("(agrupación de términos)")
         t3 = Text("Caso de factoreo 2", font_size=32)
         v = Group(img, t1, t2, t3)
-        self.add(img.scale(0.25), v.arrange(DOWN)) 
+        self.add(img.scale(0.25), v.arrange(DOWN))
 
 
 # Objetivo del metodo
@@ -24,11 +28,15 @@ class fcat_01(Scene):
         self.play(Write(f1.shift(UP)))
         self.wait(2)
         self.play(
-            TransformMatchingShapes(f1.copy(), f2, )
+            TransformMatchingShapes(
+                f1.copy(),
+                f2,
+            )
         )
         self.wait(2)
 
-# Recordatorio para el método 
+
+# Recordatorio para el método
 class fcat_02(Scene):
     def construct(self):
         f1 = MathTex(r"m^{a}\cdot m^{b}=m^{a+b}")
@@ -46,11 +54,10 @@ class fcat_02(Scene):
         self.play(Write(fx))
         self.wait(3)
         for f in f2[0:]:
-            self.play(
-                TransformMatchingShapes(fx, f, path_along_arc=PI/2)
-            )
+            self.play(TransformMatchingShapes(fx, f, path_arc=PI / 2))
             fx = f
-            self.wait(3)        
+            self.wait(3)
+
 
 # Primer ejemplo
 class fcat_03(Scene):
@@ -66,31 +73,30 @@ class fcat_03(Scene):
 
         self.play(Write(f[0]))
         self.wait(2)
-        self.play(f[0].animate.shift(UP), 
-                  TransformMatchingShapes(f[0].copy(), f[1]))
+        self.play(f[0].animate.shift(UP), TransformMatchingShapes(f[0].copy(), f[1]))
         self.wait(2)
-        self.play(Write(f[2].shift(DOWN*3).shift(RIGHT*3)))
+        self.play(Write(f[2].shift(DOWN * 3).shift(RIGHT * 3)))
         self.wait(2)
-        
+
         self.play(
             FadeOut(f[0]),
-            f[1].animate.shift(UP), 
-            TransformMatchingShapes(f[2].copy(), f[3])
+            f[1].animate.shift(UP),
+            TransformMatchingShapes(f[2].copy(), f[3]),
         )
         self.wait(2)
         self.play(
             FadeOut(f[1]),
-            f[3].animate.shift(UP), 
-            TransformMatchingShapes(f[3].copy(), f[4])
+            f[3].animate.shift(UP),
+            TransformMatchingShapes(f[3].copy(), f[4]),
         )
         self.wait(2)
         self.play(
             FadeOut(f[3]),
-            f[4].animate.shift(UP), 
-            TransformMatchingShapes(f[4].copy(), f[5])
-            
+            f[4].animate.shift(UP),
+            TransformMatchingShapes(f[4].copy(), f[5]),
         )
         self.wait(2)
+
 
 # Segundo ejemplo
 class fcat_04(Scene):
@@ -105,26 +111,28 @@ class fcat_04(Scene):
 
         self.play(Write(f[0]))
         self.wait(2)
-        self.play(f[0].animate.shift(UP), 
-                  TransformMatchingShapes(f[0].copy(), f[1]))
+        self.play(f[0].animate.shift(UP), TransformMatchingShapes(f[0].copy(), f[1]))
         self.wait(2)
 
         self.play(
             FadeOut(f[0]),
-            f[1].animate.shift(UP), 
-            TransformMatchingShapes(f[1].copy(), f[2]))
+            f[1].animate.shift(UP),
+            TransformMatchingShapes(f[1].copy(), f[2]),
+        )
         self.wait(2)
 
         self.play(
             FadeOut(f[1]),
-            # f[2].animate.shift(UP), 
-                  TransformMatchingShapes(f[2], f[3]))
+            # f[2].animate.shift(UP),
+            TransformMatchingShapes(f[2], f[3]),
+        )
         self.wait(2)
 
         self.play(
             FadeOut(f[2]),
-            f[3].animate.shift(UP), 
-                  TransformMatchingShapes(f[3].copy(), f[4]))
+            f[3].animate.shift(UP),
+            TransformMatchingShapes(f[3].copy(), f[4]),
+        )
         self.wait(2)
 
 
@@ -142,30 +150,33 @@ class fcat_05(Scene):
 
         self.play(Write(f[0]))
         self.wait(2)
-        self.play(f[0].animate.shift(UP), 
-                  TransformMatchingShapes(f[0].copy(), f[1]))
+        self.play(f[0].animate.shift(UP), TransformMatchingShapes(f[0].copy(), f[1]))
         self.wait(2)
 
         self.play(
             FadeOut(f[0]),
-            f[1].animate.shift(UP), 
-            TransformMatchingShapes(f[1].copy(), f[2]))
+            f[1].animate.shift(UP),
+            TransformMatchingShapes(f[1].copy(), f[2]),
+        )
         self.wait(2)
 
         self.play(
             FadeOut(f[1]),
-            f[2].animate.shift(UP), 
-            TransformMatchingShapes(f[2].copy(), f[3]))
+            f[2].animate.shift(UP),
+            TransformMatchingShapes(f[2].copy(), f[3]),
+        )
         self.wait(2)
 
         self.play(
             FadeOut(f[2]),
-            f[3].animate.shift(UP), 
-            TransformMatchingShapes(f[3].copy(), f[4]))
+            f[3].animate.shift(UP),
+            TransformMatchingShapes(f[3].copy(), f[4]),
+        )
         self.wait(2)
 
         self.play(
             FadeOut(f[3]),
-            f[4].animate.shift(UP), 
-            TransformMatchingShapes(f[5].copy(), f[6]))
+            f[4].animate.shift(UP),
+            TransformMatchingShapes(f[5].copy(), f[6]),
+        )
         self.wait(2)

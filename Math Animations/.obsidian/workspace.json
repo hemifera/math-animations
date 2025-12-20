@@ -15,42 +15,15 @@
               "type": "markdown",
               "state": {
                 "file": "Planificación.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
               "title": "Planificación"
             }
-          },
-          {
-            "id": "6802d63a772b71fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Guión/5 Métodos de simplifación/5.2 Fracciones parciales.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "5.2 Fracciones parciales"
-            }
-          },
-          {
-            "id": "ce6871804f053760",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/fracciones parciales.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "fracciones parciales.excalidraw"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5,
-    "collapsed": true
+    "width": 344.5
   },
   "right": {
     "id": "0a895f82298e72cb",
@@ -172,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Guión/2 Casos de factoreo/2.2 Trinomios/Formula cuadratica.md",
+                "file": "Planificación.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Formula cuadratica"
+              "title": "Outline of Planificación"
             }
           }
         ],
@@ -186,8 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,37 +172,38 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6802d63a772b71fb",
+  "active": "03c8f0052769c2a2",
   "lastOpenFiles": [
-    "Excalidraw/fracciones parciales.excalidraw.md",
-    "Guión/5 Métodos de simplifación/5.2 Fracciones parciales.md",
-    "Planificación.md",
-    "Excalidraw/division larga ejercicios.excalidraw.md",
-    "Guión/5 Métodos de simplifación/5.1 División larga.md",
-    "Excalidraw/Drawing 2025-06-04 10.50.28.excalidraw.md",
-    "Excalidraw/Drawing 2025-06-25 11.53.09.excalidraw.md",
-    "Guión/5 Métodos de simplifación/5.3 Reducción lineal del seno y coseno.md",
-    "1.png",
-    "Guión/5 Métodos de simplifación/5.4 La notación científica.md",
-    "Guión/4 Trigonometría/4.1 Las funciones trigonometricas y el circulo unitario.md",
-    "Guión/4 Trigonometría/4.2 Las funciones inversas y los angulos.md",
-    "Guión/3 Ecuaciones lineales/3.3 Ecuaciones logarítmicas/1. Ejercicios prácticos en ecuaciones logarítmicas.md",
-    "Guión/3 Ecuaciones lineales/3.2 El valor absoluto/2. Ecuaciones con intervalos.md",
-    "Guión/3 Ecuaciones lineales/3.2 El valor absoluto/1. La funcion y unas bases.md",
-    "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.3 Método de reducción.md",
-    "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.2 Eliminación por sustitución.md",
-    "Guión/3 Ecuaciones lineales/3.1 Métodos comunes/3.1.1 Eliminación por igualacion.md",
-    "Guión/5 Métodos de simplifación/5.1 Racionalización.md",
-    "Guión/1 Conocimientos basicos/1.5 Propiedades de los logaritmos.md",
-    "Guión/3 Ecuaciones lineales/3.2 El valor absoluto",
     "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.4 División sintética (Método de Ruffini).md",
-    "Untitled.md",
-    "niko_wall5.jpg",
-    "Avance.md",
+    "Planificación.md",
     "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.3 Triángulo de pascal.md",
-    "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.1 Cubo perfecto de binomios.md",
     "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.2 Suma o diferencia de cubos perfectos.md",
+    "Guión/2 Casos de factoreo/2.3 Binomios de mayor exponente/2.3.1 Cubo perfecto de binomios.md",
+    "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.5 Formula cuadratica.md",
+    "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.4 Trinomio de la forma basica.md",
+    "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.5 Trinomio de la forma avanzada.md",
+    "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.3 Trinomio cuadrado perfecto por adición y sustracción.md",
+    "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.2 Diferencia de cuadrados perfectos.md",
     "Guión/2 Casos de factoreo/2.2 Trinomios/2.2.1 Trinomio cuadrado perfecto.md",
+    "Guión/2 Casos de factoreo/2.1 Descomposición factorial/2.1.2 Factor común por agrupación de términos.md",
+    "Guión/2 Casos de factoreo/2.1 Descomposición factorial/2.1.1 Factor común.md",
+    "Guión/2 Casos de factoreo/2.1 Descomposición factorial/2.1.0 Descomposición factorial.md",
+    "Guión/1 Conocimientos basicos/1.4 Propiedades de los logaritmos.md",
+    "Guión/1 Conocimientos basicos/1.3 Propiedades de los exponentes.md",
+    "Guión/1 Conocimientos basicos/1.2 Operaciones con fracciones.md",
+    "Guión/1 Conocimientos basicos/1.1 Ley de los signos.md",
+    "Guión/1 Conocimientos basicos/1.0 Introduccion.md",
+    "Guión/1 Conocimientos basicos/1.1 PEMDAS.md",
+    "Guión/5 Métodos de simplifación/5.3 Reducción lineal del seno y coseno.md",
+    "Guión/4 Trigonometría/4.2 Las funciones inversas y los angulos.md",
+    "Todo.md",
+    "Media/1.png",
+    "Media",
+    "Avance.md",
+    "Guión/3 Ecuaciones lineales/3.2 El valor absoluto/1. La funcion y unas bases.md",
+    "Guión/3 Ecuaciones lineales/3.2 El valor absoluto/2. Ecuaciones con intervalos.md",
+    "Guión/3 Ecuaciones lineales/3.2 El valor absoluto",
+    "niko_wall5.jpg",
     "Guión/3 Ecuaciones lineales/3.3 Ecuaciones logarítmicas",
     "Guión/5 Métodos de simplifación/Untitled",
     "Guión/4 Trigonometría/4.1 Las funciones básicas",
@@ -239,7 +211,6 @@
     "Guión/3 Ecuaciones lineales/3.1 Métodos comunes",
     "Guión/Untitled",
     "Guión/4 Trigonometría",
-    "Guión/3 Ecuaciones lineales",
-    "Guión/5 Métodos de simplifación"
+    "Guión/3 Ecuaciones lineales"
   ]
 }

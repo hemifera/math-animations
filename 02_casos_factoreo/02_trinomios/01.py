@@ -1,8 +1,9 @@
 from manim import *
 
+
 class tcp_00(Scene):
     def construct(self):
-        img = ImageMobject("img/udb_logo_high.png")
+        img = ImageMobject("../../img/udb_logo_high.png")
         t1 = Text(r"Trinomios")
         t2 = Text("(trinomio cuadrado perfecto)", font_size=38)
         # t3 = Text("Caso de factoreo 3", font_size=32)
@@ -48,7 +49,7 @@ class tcp_02(Scene):
             TransformMatchingShapes(
                 f[1],
                 f[2],
-                path_along_arc=PI / 2,
+                path_arc=PI / 2,
             )
         )
         self.wait(2)
@@ -58,7 +59,7 @@ class tcp_02(Scene):
             TransformMatchingShapes(
                 f[2].copy(),
                 f[3],
-                path_along_arc=PI / 2,
+                path_arc=PI / 2,
             ),
         )
         self.wait(2)
@@ -129,7 +130,7 @@ class tcp_03(Scene):
             )
         )
         self.wait(2)
-        self.play(TransformMatchingShapes(f[13], f[2], path_along_arc=PI / 2))
+        self.play(TransformMatchingShapes(f[13], f[2], path_arc=PI / 2))
         self.wait(2)
 
         self.play(
@@ -221,7 +222,7 @@ class tcp_04(Scene):
             )
         )
         self.wait(2)
-        self.play(TransformMatchingShapes(f[13], f[2], path_along_arc=PI / 2))
+        self.play(TransformMatchingShapes(f[13], f[2], path_arc=PI / 2))
         self.wait(2)
 
         self.play(
@@ -276,7 +277,7 @@ class tcp_05(Scene):
 
         self.play(
             f[0].animate.shift(UP),
-            TransformMatchingShapes(f[0].copy(), f[1], path_along_arc=PI / 2),
+            TransformMatchingShapes(f[0].copy(), f[1], path_arc=PI / 2),
         )
         self.wait(2)
 
@@ -284,9 +285,7 @@ class tcp_05(Scene):
             self.play(
                 FadeOut(f[i]),
                 f[i + 1].animate.shift(UP),
-                TransformMatchingShapes(
-                    f[i + 1].copy(), f[i + 2], path_along_arc=PI / 2
-                ),
+                TransformMatchingShapes(f[i + 1].copy(), f[i + 2], path_arc=PI / 2),
             )
             self.wait(2)
 
