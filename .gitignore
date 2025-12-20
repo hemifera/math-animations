@@ -10,14 +10,13 @@ wheels/
 # Virtual environments
 .venv
 
-# Custom 
+# Custom
 folder_notes
 media/
-video edits/
+Edicion de videos/
 Tex/
-videos/*
-images/*
+videos/
+images/
 
 # Obsidian vault
 .obsidian/
-
